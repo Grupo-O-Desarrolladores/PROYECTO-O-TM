@@ -1,3 +1,29 @@
-Integrantes: Federico Sabattini, Juan Ignacio Ortiz, Mauro Zeiguerman.
-TITULO(aun no sabemos de que)
-Resumen:
+PROYECTO METODOLOGIA
+
+INTEGRANTES DEL PROYECTO GRUPO O-TM: JUAN ORTIZ, MAURO ZEIGUERMAN, FEDERICO SABATINI.
+
+TÍTULO PROYECTO: RED COMUNITARIA: MENDOZA SOLIDARIA COVID19
+
+RESUMEN PROYECTO:
+
+Problemática Identificada
+
+Al producirse una gran problemática como es la Pandemia Mundial Convi19 (Coronavirus), que está provocando y agudizando graves problemáticas y necesidades en todos los sectores existentes dentro del sistema (Salud, Educación, etc); afectando el funcionamiento normal de las mismas y golpeando fuertemente a los sectores más vulnerables de la sociedad. 
+
+Recursos
+
+El grupo ha decidido que sería un interesante primer proyecto en la Carrera de Tecnicatura volcar nuestro aprendizaje en desarrollar una aplicación web, en lenguaje Python, enfocado al navegador Firefox (siendo un navegador libre de código abierto), que funciona muy bien bajo sistema operativo de LINUX. 
+
+Objetivos y metas
+
+El objetivo es trabajar en una idea solidaria y altruista,  que permita conectar la necesidades actuales de los Comedores Alimentarios Solidarios y la ayuda desinteresada que sea aportada por usuarios/voluntarios que se registren en la aplicación web,  con la intención de cubrir la necesidades que puedan tener dichos Comedores. 
+La existencia de esta aplicación web busca visibilizar la existencia de estos comedores y sus necesidades, como así también la obra que desempeñan, quienes las impulsan y a cuántas personas ayudan. Buscamos impactar positivamente como canal de comunicación entre los que más necesitan y aquellos que tienen intenciones de colaborar, y que por falta de información o comunicación no logran vincularse. De esta manera estaríamos  brindando una solución a la problemática y podría constituirse en una herramienta de gran importancia que potencie esta RED SOLIDARIA.
+
+Descripción de la propuesta: implicancias prácticas
+
+La función de la página sería la de registrar a los comedores, con su nombre, dirección, y demás información relevante. Luego,  en la plataforma, cada comedor va ir poniendo de forma pública los productos faltantes y cantidades necesarias del mismo, para de esta forma crear la conección entre los centros y el voluntariado.
+(ej: Se reporta Necesidad: Faltante de Leche. Voluntario Gestiona Donación de 20L de Leche. Voluntario Dona Traslado de producto hasta el destino. Se cierra la cadena con el problema reportado solucionado).
+
+Finalidad
+
+En una sociedad donde la población se sectoriza y fragmenta, donde el tejido social de deteriora al ritmo de la economía, establecer vínculos y canales de diálogos es todo un desafío. Consideramos que este es el papel que debe desempeñar la tecnología, un facilitador de recursos que permita solucionar problemas. Un recurso que nos permita comunicarnos con el otro, conocerlo y hacernos dar cuenta que nuestras distancias y divisiones tienen tan solo, el tamaño de nuestros prejuicios.
