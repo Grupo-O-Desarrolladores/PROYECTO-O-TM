@@ -4,6 +4,8 @@ INTEGRANTES DEL PROYECTO GRUPO O-TM: JUAN ORTIZ, MAURO ZEIGUERMAN, FEDERICO SABA
 
 TÍTULO PROYECTO: RED COMUNITARIA: MENDOZA SOLIDARIA COVID19
 
+***********************************************************
+
 RESUMEN PROYECTO:
 
 Problemática Identificada
@@ -22,12 +24,7 @@ La existencia de esta aplicación web busca visibilizar la existencia de estos c
 Descripción de la propuesta: implicancias prácticas
 
 La función de la página sería la de registrar a los comedores, con su nombre, dirección, y demás información relevante. Luego,  en la plataforma, cada comedor va ir poniendo de forma pública los productos faltantes y cantidades necesarias del mismo, para de esta forma crear la conección entre los centros y el voluntariado.
-(ej: Se reporta Necesidad: Faltante de Leche. Voluntario Gestiona Donación de 20L de Leche. Voluntario Dona Traslado de producto hasta el destino. Se cierra la cadena con el problema reportado solucionado).
 
 Finalidad
 
 En una sociedad donde la población se sectoriza y fragmenta, donde el tejido social de deteriora al ritmo de la economía, establecer vínculos y canales de diálogos es todo un desafío. Consideramos que este es el papel que debe desempeñar la tecnología, un facilitador de recursos que permita solucionar problemas. Un recurso que nos permita comunicarnos con el otro, conocerlo y hacernos dar cuenta que nuestras distancias y divisiones tienen tan solo, el tamaño de nuestros prejuicios.
-
-
-
-
