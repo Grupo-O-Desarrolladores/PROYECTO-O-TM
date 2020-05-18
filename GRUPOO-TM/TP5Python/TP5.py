@@ -25,7 +25,7 @@ for recorrido in range(1,len(nueva_lista)):
 #Numero mayor
 for recorrido in range(1,len(nueva_lista)):
    for posicion in range(len(nueva_lista)- recorrido):
-       if nueva_lista2[posicion]> nueva_lista2[posicion  + 1]:
+       if nueva_lista2[posicion] < nueva_lista2[posicion  + 1]:
            temp = nueva_lista2[posicion]
            nueva_lista2[posicion]= nueva_lista2[posicion + 1]
            nueva_lista2[posicion + 1]=temp
