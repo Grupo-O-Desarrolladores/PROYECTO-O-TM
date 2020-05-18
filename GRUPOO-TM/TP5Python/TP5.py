@@ -29,7 +29,7 @@ for recorrido in range(1,len(nueva_lista)):
            temp = nueva_lista2[posicion]
            nueva_lista2[posicion]= nueva_lista2[posicion + 1]
            nueva_lista2[posicion + 1]=temp
-#Numero menor - mayor
+#Numero mayor - menor
 
 
 num_menor = "".join(nueva_lista)
@@ -39,3 +39,5 @@ print("")
 print("Numero menor posible: "+ num_menor)
 print("")
 print("Numero mayor posible: "+ num_mayor)
+print("")
+print("La resta de los numeros dan: "+ resta)
