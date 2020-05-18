@@ -4,7 +4,7 @@ nueva_lista2 = []
 num_menor = 0
 num_mayor = 0
 ingreso_usuario=int(input("Ingrese un numero de 4 digitos:"))
-lista.apped(ingreso_usuario)
+lista.append(ingreso_usuario)
 
 #Array num menor
 for i in str(ingreso_usuario):
