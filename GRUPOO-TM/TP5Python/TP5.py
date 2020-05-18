@@ -29,6 +29,8 @@ for recorrido in range(1,len(nueva_lista)):
            temp = nueva_lista2[posicion]
            nueva_lista2[posicion]= nueva_lista2[posicion + 1]
            nueva_lista2[posicion + 1]=temp
+#Numero menor - mayor
+
 
 num_menor = "".join(nueva_lista)
 num_mayor = "".join(nueva_lista2)
