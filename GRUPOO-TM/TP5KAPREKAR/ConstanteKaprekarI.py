@@ -119,5 +119,5 @@ class Kaprekar():
 
             #Ordena la lista de forma Ascendente:
                 self.listaAscendente2 = sorted(self.lista2)
-        #subo el codigo hasta aca Rama Bruno.S
+        #subo el codigo hasta aca Rama2 Bruno.S
         
