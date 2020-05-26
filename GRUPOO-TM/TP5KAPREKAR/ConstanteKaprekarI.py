@@ -89,5 +89,35 @@ class Kaprekar():
         self.contador = 0
 
         #subo el codigo hasta aca Rama Fede.S
+        while True:
+           if self.resultado != 6174:
+                #Condicion para gestionar la resta de numero ingreso ascendente - descendente:
 
+                if self.nroAscendente < self.nroDescendente:
+
+                    self.resultado = self.nroDescendente - self.nroAscendente
+                    print()
+                    print(self.nroDescendente, " - ", self.nroAscendente, " = ", self.resultado)
+                    
+
+                else:
+                
+                    self.resultado = self.nroAscendente - self.nroDescendente
+                    print()
+                    print(self.nroAscendente, " - ", self.nroDescendente, " = ", self.resultado)
+           #El valor obtenido en resultado debo volver a aplicar Ascendente y Descendente:
+
+                self.nroAscendente = 0
+                self.nroDescendente = 0 
+            
+                self.textoNum2 = str(self.resultado)
+
+                self.tupla2 = (self.textoNum2) 
+
+            #Transformo la tupla en lista y la ordenamos en forma Ascendente:
+                self.lista2 = self.tupla2
+
+            #Ordena la lista de forma Ascendente:
+                self.listaAscendente2 = sorted(self.lista2)
+        #subo el codigo hasta aca Rama Bruno.S
         
