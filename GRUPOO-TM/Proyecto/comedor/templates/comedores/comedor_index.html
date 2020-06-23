@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Comedores</title>
+    </head>
+    <body style="text-align: center;">
+        <h1><p style="text-align: center;">Comedores anotados</p><br></h1>
+		{% for comedor in comedores %}
+			<h3>
+			<a href="{% url 'comedor_detalle' comedor.nombre %}"><p style="bottom: auto;">{{ comedor.nombre }}</p></a>
+			</h3>
+		{% endfor %}
+        <a href="{% url 'home_app:inicio' %}"><p style="bottom: auto;">Volver</p></a>
+    </body>
+</html>
