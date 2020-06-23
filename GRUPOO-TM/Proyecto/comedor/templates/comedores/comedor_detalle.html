@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>{{ nombre }}</title>
+    </head>
+    <body style="text-align: center;">
+        <h1><p style="text-align: center;">Detalles de comedor {{ nombre }}</p><br></h1>
+		
+			<h3>
+			<a><p style="bottom: auto;">{{ comedor.nombre }}</p></a>
+			<a><p style="bottom: auto;">{{ comedor.ubicacion }}</p></a>
+			<a><p style="bottom: auto;">{{ comedor.descripcion }}</p></a><br>
+			<a><p style="bottom: auto;">Faltantes</p></a>
+			{% for producto in productos %}
+				<a><p style="bottom: auto;">
+				{{ producto.nombre }}	{{ producto.cantidad }}		{{ producto.tipo_cantidad }}
+				</p></a>
+			{% endfor %}
+			</h3>
+        <a href="{% url 'comedor_index' %}"><p style="bottom: auto;">Volver</p></a>
+    </body>
+</html>
