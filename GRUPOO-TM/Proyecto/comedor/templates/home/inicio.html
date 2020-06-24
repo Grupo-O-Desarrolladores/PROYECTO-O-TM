@@ -3,10 +3,14 @@
     <head>
         <title>Proyecto Grupo O - SOLIDARIO</title>
     </head>
-    <body>
+    <body style="text-align: center;">
         <h1><p style="text-align: center;">Bienvenido</p><br></h1>
-        <button>Comedores</button>
-        <button>Donaciones</button>
-        <a href="{% url 'home_app:about' %}"><p style="text-align: center;" style="bottom: auto;">Acerca de nosotros</p></a>
+        <button>
+			<a href="{% url 'comedor_index' %}"><p style="bottom: auto;">Comedores</p></a>		
+		</button>
+        <button>
+			<a href="{% url 'donaciones_app:donaciones_index' %}"><p style="bottom: auto;">Donaciones</p></a>		
+		</button>
+        <a href="{% url 'home_app:about' %}"><p style="bottom: auto;">Acerca de nosotros</p></a>
     </body>
 </html>

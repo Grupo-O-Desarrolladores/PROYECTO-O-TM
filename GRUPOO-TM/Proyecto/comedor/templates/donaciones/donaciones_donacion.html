@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Donaciones en {{ nombre }}</title>
+    </head>
+    <body style="text-align: center;">
+        <h3><p style="text-align: center;">Por favor, complete la forma para contactarlo con el comedor {{ nombre }}</p><br></h3>
+		<form method="POST">
+			{% csrf_token %}
+			<div class="form-group">
+			{{ forma.donante }}
+			</div>
+			<div class="form-group">
+			{{ forma.contacto }}
+			</div>	
+			<input type="submit" value="Enviar">
+		</form>
+        <a href="{% url 'donaciones_app:donaciones_seleccion' nombre %}"><p style="bottom: auto;">Volver a Donaciones en {{ nombre }}</p></a>
+    </body>
+</html>

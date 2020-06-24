@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Donaciones</title>
+    </head>
+    <body style="text-align: center;">
+        <h1><p style="text-align: center;">Seleccione un comedor para el que desee donar</p><br></h1>
+		{% for comedor in comedores %}
+			<h3>
+			<a href="{% url 'donaciones_app:donaciones_seleccion' comedor.nombre%}">{{ comedor.nombre }}</p></a>
+			</h3>
+		{% endfor %}
+        <a href="{% url 'home_app:inicio' %}"><p style="bottom: auto;">Volver</p></a>
+    </body>
+</html>
