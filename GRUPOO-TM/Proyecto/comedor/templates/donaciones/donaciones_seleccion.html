@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Donaciones en {{ nombre }}</title>
+    </head>
+    <body style="text-align: center;">
+        <h1><p style="text-align: center;">Seleccione su donación</p><br></h1>
+		{% for producto in productos %}
+			<h3>
+			<a href="{% url 'donaciones_app:donaciones_donacion' nombre producto.nombre %}">{{ producto.nombre }}</p></a>
+			</h3>
+		{% endfor %}
+        <a href="{% url 'donaciones_app:donaciones_index' %}"><p style="bottom: auto;">Volver a Donaciones</p></a>
+    </body>
+</html>
