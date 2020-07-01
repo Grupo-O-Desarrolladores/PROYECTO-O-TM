@@ -6,5 +6,6 @@ class Donacion(models.Model):
     nombre_donante = models.CharField(max_length=30)
     contacto_donante = models.CharField(max_length=40)
     comedor_donacion = models.ForeignKey(Comedor, on_delete=models.CASCADE)
-    donacion_aceptada = False
-
+    donacion_aceptada = models.BooleanField(default=False)
+    def __str__(self):
+        return 'Donacion para ' + self.comedor_donacion.nombre
