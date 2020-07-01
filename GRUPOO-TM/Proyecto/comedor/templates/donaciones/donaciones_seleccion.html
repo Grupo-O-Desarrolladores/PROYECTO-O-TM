@@ -5,11 +5,24 @@
     </head>
     <body style="text-align: center;">
         <h1><p style="text-align: center;">Seleccione su donación</p><br></h1>
-		{% for producto in productos %}
-			<h3>
-			<a href="{% url 'donaciones_app:donaciones_donacion' nombre producto.nombre %}">{{ producto.nombre }}</p></a>
-			</h3>
-		{% endfor %}
+		<table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+			<thead>
+				<th>Producto</th>
+				<th>Cantidad</th>
+				<th>Tipo Cantidad</th>
+				<th>Acción</th>
+			</thead>
+			<tbody>
+			{% for producto in productos %}
+				<tr>
+					<td>{{ producto.nombre }}</td>
+					<td>{{ producto.cantidad }}</td>
+					<td>{{ producto.tipo_cantidad }}</td>
+					<td><a href="{% url 'donaciones_app:donaciones_donacion' nombre producto.nombre %}">DONAR</a></td>
+				</tr>
+			{% endfor %}
+			</tbody>
+		</table>
         <a href="{% url 'donaciones_app:donaciones_index' %}"><p style="bottom: auto;">Volver a Donaciones</p></a>
     </body>
 </html>

@@ -12,6 +12,6 @@ class FormaDonacion(forms.Form):
 	contacto = forms.CharField(max_length=60,widget=forms.TextInput(
 		attrs={
 			"class": "form-control",
-			"placeholder": "Numero de contacto o mail interesado/a"
+			"placeholder": "Telefono o Mail"
 		})
 	)

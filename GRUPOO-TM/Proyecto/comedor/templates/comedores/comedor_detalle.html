@@ -5,18 +5,35 @@
     </head>
     <body style="text-align: center;">
         <h1><p style="text-align: center;">Detalles de comedor {{ nombre }}</p><br></h1>
-		
-			<h3>
-			<a><p style="bottom: auto;">{{ comedor.nombre }}</p></a>
-			<a><p style="bottom: auto;">{{ comedor.ubicacion }}</p></a>
-			<a><p style="bottom: auto;">{{ comedor.descripcion }}</p></a><br>
-			<a><p style="bottom: auto;">Faltantes</p></a>
+		<table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+			<thead style="text-align: left;">
+				<th>Nombre</th>
+				<th>Ubicación</th>
+				<th>Descripción</th>
+			</thead>
+			<tbody style="text-align: left;">
+				<td>{{ comedor.nombre }}</td>
+				<td>{{ comedor.ubicacion }}</td>
+				<td>{{ comedor.descripcion }}</td>
+			</tbody>
+		</table>
+		<h3><p style="bottom: auto;">Faltantes</p></h3>
+		<table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+			<thead>
+				<th>Producto</th>
+				<th>Cantidad</th>
+				<th>Tipo Cantidad</th>
+			</thead>
+			<tbody>
 			{% for producto in productos %}
-				<a><p style="bottom: auto;">
-				{{ producto.nombre }}	{{ producto.cantidad }}		{{ producto.tipo_cantidad }}
-				</p></a>
+				<tr>
+					<td>{{ producto.nombre }}</td>
+					<td>{{ producto.cantidad }}</td>
+					<td>{{ producto.tipo_cantidad }}</td>
+				</tr>
 			{% endfor %}
-			</h3>
+			</tbody>
+		</table>
         <a href="{% url 'comedor_index' %}"><p style="bottom: auto;">Volver</p></a>
     </body>
 </html>
