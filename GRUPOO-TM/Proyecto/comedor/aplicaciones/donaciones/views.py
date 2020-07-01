@@ -33,7 +33,8 @@ def donaciones_donacion(request, nombre_producto, nombre):
             donacion = Donacion(
                 nombre_donante=forma.cleaned_data["donante"],
                 contacto_donante=forma.cleaned_data["contacto"],
-                comedor_donacion=este_comedor
+                comedor_donacion=este_comedor,
+                producto_donacion=este_producto
             )
             donacion.save()
             return redirect ('donaciones_app:donaciones_index')
