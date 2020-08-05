@@ -1,7 +1,7 @@
 # PROYECTO-O-TM
 
 ## Descripción
-Este README explica como instalar el proyecto en un sistema operativo Linux, como dejarlo preparado y las [funcionalidades básicas](https://github.com/Grupo-O-Desarrolladores/PROYECTO-O-TM/new/master?readme=1#funcionalidades-b%C3%A1sicas) de la página en sí.
+Este README explica como instalar el proyecto en un sistema operativo Linux, como dejarlo preparado y las [funcionalidades básicas](#funcionalidades-básicas) de la página en sí.
 
 ## IMPORTANTE
 Este proyecto fue realizado con Python 3.6.9. Si no se tiene instalada esta versión, no podemos asegurar que el proyecto funcione de forma correcta. A su vez 
